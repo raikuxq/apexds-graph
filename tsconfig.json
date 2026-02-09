@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "allowJs": true,
+    "outDir": "lib",
+    "declaration": false,
+    "strict": true,
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "target": "ESNext",
+    "rootDir": "src",
+    "inlineSourceMap": false,
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "types": ["jest", "node"]
+  },
+  "include": [
+    "src/**/*",
+  ],
+  "lib": ["esnext"]
+}

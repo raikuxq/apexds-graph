@@ -1,0 +1,49 @@
+{
+  "name": "graph-kit",
+  "version": "1.0.0",
+  "description": "A comprehensive TypeScript library for graph data structures (directed, undirected) and advanced graph algorithms (BFS, DFS, Dijkstra, transpose, etc.).",
+  "scripts": {
+    "build:lib": "rimraf ./lib && vite build",
+    "build:dts": "dts-bundle-generator -o lib/index.d.ts src/index.ts --no-check --inline-declare-externals false --external-inlines @babel/types",
+    "build:full": "yarn build:lib && yarn build:dts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raikuxq/graph-kit"
+  },
+  "keywords": [
+    "graph",
+    "graph-data-structure",
+    "algorithms",
+    "data-structures",
+    "typescript",
+    "bfs",
+    "dfs",
+    "dijkstra",
+    "undirected-graph",
+    "directed-graph",
+    "computer-science",
+    "graph kit"
+  ],
+  "main": "./lib/index.mjs",
+  "module": "./lib/index.mjs",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "author": "@raikuxq",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@raikuxq/alg-ds": "^3.0.2",
+    "@types/jest": "^29.5.12",
+    "dts-bundle-generator": "^9.5.1",
+    "jest": "^29.7.0",
+    "rimraf": "^6.1.2",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11"
+  }
+}
