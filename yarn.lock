@@ -639,10 +639,10 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@raikuxq/alg-ds@^3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@raikuxq/alg-ds/-/alg-ds-3.0.2.tgz#9308c9452eab9c6c08ce3fe109fafe7723eac85f"
-  integrity sha512-870L+e5jgP/lY8EcXuZ2KOFlmPHXGDNqi+dngzOeIuxEUkAuUR6brzbuWRcWLnJ3K7ZXSJ0eNs7HS/cznEVBJg==
+"@raikuxq/alg-ds@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@raikuxq/alg-ds/-/alg-ds-4.1.0.tgz#02e88c844599ce9a5d0a42d82ea1581cb9b13d3d"
+  integrity sha512-9bxi1rFQ/YdDcGJ48YI7ajVUZslH28AzS82coALMqLLQ107T7/Oi8vYFsxyo5sd4aUkwMEsuqHxnJzSdVf7hLA==
 
 "@rollup/rollup-android-arm-eabi@4.57.1":
   version "4.57.1"
