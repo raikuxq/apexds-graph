@@ -1,11 +1,11 @@
-# graph-ds-kit
+# @apexds/graph
 A comprehensive TypeScript library for graph data structures (directed, undirected) and advanced graph algorithms (BFS, DFS, Dijkstra, transpose, has path, shortest path.).
 
 [24.54 kB │ gzip: 5.78 kB]
 
-[![npm version](https://img.shields.io/npm/v/graph-ds-kit.svg)](https://www.npmjs.com/package/graph-ds-kit)
-[![minzip](https://img.shields.io/bundlephobia/minzip/graph-ds-kit)](https://bundlephobia.com/package/graph-ds-kit)
-[![gzip size](https://img.shields.io/bundlejs/size/gzip/graph-ds-kit)](https://bundlejs.com/?q=graph-ds-kit)
+[![npm version](https://img.shields.io/npm/v/@apexds/graph.svg)](https://www.npmjs.com/package/@apexds/graph)
+[![minzip](https://img.shields.io/bundlephobia/minzip/@apexds/graph)](https://bundlephobia.com/package/@apexds/graph)
+[![gzip size](https://img.shields.io/bundlejs/size/gzip/@apexds/graph)](https://bundlejs.com/?q=@apexds/graph)
 
 
 ---
@@ -19,8 +19,8 @@ Detailed documentation is available at:
 
 # Installing
 Install by using any of these commands:
-+ `yarn add graph-ds-kit`
-+ `npm install graph-ds-kit --save`
++ `yarn add @apexds/graph`
++ `npm install @apexds/graph --save`
 
 ## Core lib
 Core (implementation, tests, docs): [@raikuxq/lab-ts-algorithms](https://github.com/raikuxq/lab-ts-algorithms/)
@@ -32,7 +32,7 @@ import {
   UndirectedGraph,
   shortestPath,
   EnumGraphTraversalType
-} from 'graph-ds-kit';
+} from '@apexds/graph';
 
 const graph = new UndirectedGraph<string>();
 

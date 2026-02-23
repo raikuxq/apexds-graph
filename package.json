@@ -1,5 +1,5 @@
 {
-  "name": "graph-ds-kit",
+  "name": "@apexds/graph",
   "version": "2.0.0",
   "description": "A comprehensive TypeScript library for graph data structures (directed, undirected) and advanced graph algorithms (BFS, DFS, Dijkstra, transpose, etc.).",
   "scripts": {
