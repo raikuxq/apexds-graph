@@ -1,6 +1,6 @@
 {
   "name": "@apexds/graph",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "A comprehensive TypeScript library for graph data structures (directed, undirected) and advanced graph algorithms (BFS, DFS, Dijkstra, transpose, etc.).",
   "scripts": {
     "build:lib": "rimraf ./lib && vite build",
