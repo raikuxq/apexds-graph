@@ -29,4 +29,4 @@ export {
     presenterGraphviz,
     type IGraph,
     type IGraphIterator,
-} from '@raikuxq/alg-ds'
+} from '@apexds/core'
