@@ -1,11 +1,8 @@
 # @apexds/graph
 A comprehensive TypeScript library for graph data structures (directed, undirected) and advanced graph algorithms (BFS, DFS, Dijkstra, transpose, has path, shortest path.).
 
-[24.54 kB │ gzip: 5.78 kB]
-
 [![npm version](https://img.shields.io/npm/v/@apexds/graph.svg)](https://www.npmjs.com/package/@apexds/graph)
-[![minzip](https://img.shields.io/bundlephobia/minzip/@apexds/graph)](https://bundlephobia.com/package/@apexds/graph)
-[![gzip size](https://img.shields.io/bundlejs/size/gzip/@apexds/graph)](https://bundlejs.com/?q=@apexds/graph)
+[![minzip](https://deno.bundlejs.com/badge?q=@apexds/graph)](https://bundlejs.com/?q=%40apexds%2Fgraph)
 
 
 ---
